@@ -1,0 +1,137 @@
+body{
+    font-family: 'Ubuntu', sans-serif;
+    margin:0;
+    font-size: large;
+}
+#logo2{
+    width:6rem;
+    height:5rem;
+    margin-left:0.5rem;
+}
+
+#nav1{
+    background-color: black;
+    padding: 0 10%;
+}
+
+
+#sec1{
+    background-color:darkseagreen;
+    margin-right: 0px;
+    margin-left: 0px;
+    padding: 2rem 4rem;
+}
+
+#img1{
+    height:30rem;
+    width:15rem;
+}
+
+/* #btn1{
+    padding: 0.5rem 0 1rem 0;
+} */
+
+#navbarTogglerDemo01 ul li a{
+    color: white;
+}
+
+#navbarTogglerDemo01 ul li a:hover{
+    color: goldenrod;
+}
+
+#features{
+    background-color: rgb(210, 248, 210);
+    padding: 1.5rem 0;
+}
+
+#features .col-md-4{
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+@media (max-width: 576px){ 
+    html,body{
+        font-size: small;
+    }
+    #tagline{
+        font-size: large;
+    }
+    #btn1{
+        font-size:small;
+    }
+}
+@media (max-width: 768px){ 
+    html,body{
+        font-size: medium;
+    }
+    #tagline{
+        font-size: larger;
+    }
+    #btn1{
+        font-size:medium;
+    }
+    #copyright{
+        text-align: center;
+    }
+    
+    #socials{
+        margin: auto;
+    }
+
+
+}
+
+#testimonials{
+    background-color: darkseagreen;
+    text-align: center;
+}
+
+.testimonial-image{
+    width:50px;
+    height:50px;
+    border-radius: 50%;
+    
+}
+
+#press{
+    text-align: center;
+    padding: 3%;
+    background-color: rgb(210, 248, 210);
+}
+
+#press img{
+    width:15%;
+    margin:20px;
+    
+}
+
+#pricing{
+    background-color: darkseagreen;
+    padding: 5rem 10rem;
+}
+
+#cta{
+    background-color: rgb(210, 248, 210);
+}
+
+#footer{
+    background-color: black;
+    color: white;
+}
+
+#footer p{
+    margin: 0;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+
+.social_links{
+    width: 3rem;
+    height: 3rem;
+}
+
+#socials{
+}
+
